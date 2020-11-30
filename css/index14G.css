@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+header, section, footer, aside, nav, article, hgroup{
+    border: 1px solid rgb(174, 0, 255);
+
+   
+}
+header{
+    padding: 20px;
+
+
+}
+
+img{
+    width: 20px;
+
+        
+}
+body{
+    background: purple;
+    text-align: left;
+    }
+h1{
+    font-size: 30pt;
+    text-align: left;
+    margin-bottom: 5px;
+    
+}
+h2{
+    font-size: 20pt;
+    text-align: left;
+    margin-bottom: 2px;
+}
+h3{
+    font-size: 15pt;
+    text-align: left;
+    margin-bottom: 5px;    
+}
+.contenedor{
+    width: 900px;
+    height: 420;
+    background-color: #eef6fd;
+    color: purple;
+    margin: 15px auto;
+
+}
+.menu{
+    padding: 5px 15 px;
+    text-align: left;
+}
+.menu li{
+list-style: none;
+padding: 5px;
+font: 5px;
+display: inline-block;
+}
+.seccion{
+    width: 600px;
+    margin: 20px;
+}
+article{
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article time{
+    text-align: left;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+article p{
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.columna{
+    margin: 20px 0;
+    width: 300px;
+    float:left;
+    background: #eef6fd;
+}
+.columna blockquote{
+    padding: 40px;
+    margin-bottom: 20;
+}
+.piePagina{
+    clear: both;
+    padding: 20px;
+    
+}
