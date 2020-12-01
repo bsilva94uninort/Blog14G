@@ -6,23 +6,24 @@
     <title >Inicio de sesión BLOG 14G </title>
     <link rel="icon" href="img\favicon.ico">
     <link rel="stylesheet" href="css\login14G.css">
-    <script src="js\login14G.js"></script>
+    <script src="js\signup14G.js"></script>
 
 </head>
 <body>
     <div class="cajaLogin">
-        <img class="imagen" src="img\loginicon.png" alt="loginLogo">
-        <h1>
-            Iniciar Sesión</h1>
+        <img class="imagen" src="img\favicon.ico" alt="loginLogo">
+        <h1>Registrese en Nuestro Blog</h1>
         <form name="formulario" method="post" onsubmit="return validarFormulario()">
-            <label for="nombreUsuario">Nombre de Usuario</label><br>
+            <label for="nombreUsuario">Usuario</label><br>
             <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder=""><br>
-
             <label for="pass">Contraseña</label><br>
-            <input type="password" name="pass" id="pass" placeholder="">
-            <input type="submit" value="Iniciar">
-            <a href="https://www.google.com/"><h4>¡Se me olvido mi Contraseña!</h4></a>
-            <a href="https://www.google.com/" target="blank"><h4>Click aquí para Registrarse</h4></a>
+            <input type="password" name="pass" id="pass" placeholder=""><br>
+            <label for="email">e-mail</label><br>
+            <input type="email" name="email" id="email" placeholder="">
+            <br><br>
+            <input type="submit" value="Registrarse">
+            <br><br>
+            <a href="https://www.google.com/" target="blank"><h4>Ir a Página Inicial</h4></a>
         </form>
 
     </div>
