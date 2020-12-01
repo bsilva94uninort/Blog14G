@@ -6,6 +6,7 @@
     <title >Inicio de sesión BLOG 14G </title>
     <link rel="icon" href="img\favicon.ico">
     <link rel="stylesheet" href="css\login14G.css">
+    <script src="js\login14G.js"></script>
 
 </head>
 <body>
@@ -13,7 +14,7 @@
         <img class="imagen" src="img\loginicon.png" alt="loginLogo">
         <h1>
             Iniciar Sesión</h1>
-        <form>
+        <form name="formulario" method="post" onsubmit="return validarFormulario()">
             <label for="nombreUsuario">Nombre de Usuario</label>
             <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="">
 
