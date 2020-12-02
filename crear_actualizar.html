@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crear_actualizar</title>
+    <link rel="stylesheet" href="css/crear_actualizar.css">
+</head>
+<body>
+    <div class="cajacrear">
+        <h1>Elige un nombre para tu blog</h1>
+        <form>
+            <input type="text" name="título" id="título" placeholder="Escribe aquí el título...">
+        </form>
+        <h1>Empieza a escribir</h1>
+        <form>
+            <input type="text" name="contenido" id="contenido" placeholder="Escribe aquí el contenido...">
+            <br>
+            <input type="submit" value="Publicar">
+            <input type="submit" value="Privado">
+            <input type="submit" value="Guardar">
+        </form>
+    </div>
+    <div class="cajaactualizar">
+        <h1>Continúa escribiendo tu blog</h1>
+        <form>
+            <select name="lista" id="lista">
+                <option value="" disabled selected>Elige un blog anterior...</option>
+            </select>
+            <br>
+            <input type="submit" value="Continuar escribiendo">
+        </form>
+    </div>
+</body>
+</html>

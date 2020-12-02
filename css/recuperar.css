@@ -43,10 +43,11 @@ body{
     width: 100%;
     margin-bottom: 10px;
 }
-.cajarecuperar input[type="text"]{
+/* .cajarecuperar input[type="text"]{
     
-}
+} */
 .cajarecuperar input[type="submit"]{
     width: fit-content;
-    
+    height: 30px;
+    background-color: lightgrey;
 }

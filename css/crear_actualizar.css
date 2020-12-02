@@ -1,0 +1,52 @@
+body{
+    margin: auto;
+    padding: 0%;
+    background: url(../img/fondo_crear.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+
+.cajacrear{
+    width: 70%;
+    height: 290px;
+    margin: 20px 10%;
+    background: whitesmoke;
+    color: black;    
+    padding: 5px 30px;
+    border-radius: 0%;
+    border-style: groove;
+}
+
+.cajacrear h1{
+    margin: 0;
+    padding: 10px 0 5px;
+    font-size: 12px;
+}
+
+.cajacrear input[id="contenido"]{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.cajaactualizar{
+    width: 70%;
+    height: 110px;
+    margin: 20px 10%;
+    background: whitesmoke;
+    color: black;    
+    padding: 5px 30px;
+    border-radius: 0%;
+    border-style: groove;
+}
+
+.cajaactualizar h1{
+    margin: 0;
+    padding: 10px 0 5px;
+    font-size: 12px;
+}
+
+.cajaactualizar input[type="submit"]{
+    margin-top: 10px;
+}
