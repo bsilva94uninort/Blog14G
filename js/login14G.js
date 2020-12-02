@@ -9,6 +9,11 @@ function validarFormulario(){
             alert("La contraseña debe tener mínimo 10 caracteres");
             return false}
     }while(false)
-    return alert("Usuario : "+usuario.value+" autenticado")
+    
+    alert("Usuario : "+usuario.value+" autenticado");
+    // location.assign("https://www.google.com/");
+    window.open("index14G.html");
+    window.close();
+    return 
 }
 
