@@ -1,0 +1,52 @@
+body{
+    margin: auto;
+    padding: 0%;
+    background: url(../img/Fondo_Recuperar.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+.cajarecuperar{
+    width: 420px;
+    height: 290px;
+    background: whitesmoke;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 0%;
+    border-style: groove;
+}
+.cajarecuperar .imagen{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.cajarecuperar h1{
+    margin: 0;
+    padding: 10px 0 5px;
+    font-size: 14px;
+}
+.cajarecuperar label{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    display: block;
+}
+.cajarecuperar input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.cajarecuperar input[type="text"]{
+    
+}
+.cajarecuperar input[type="submit"]{
+    width: fit-content;
+    
+}
