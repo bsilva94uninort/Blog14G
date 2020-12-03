@@ -9,6 +9,9 @@ function validarFormulario(){
             alert("La contraseña debe tener mínimo 10 caracteres");
             return false}
     }while(false)
-    return alert("Se ha enviado correo de autenticación a "+document.formulario.email.value)
+    alert("Se ha enviado correo de autenticación a "+document.formulario.email.value)
+    window.open("login14G.html");
+    window.close();
+    return
 }
 
