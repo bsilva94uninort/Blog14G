@@ -1,0 +1,18 @@
+body{
+    margin: auto;
+    padding: 0%;
+    background: url(../img/fondo_crear.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+.cajahome{
+    width: 70%;
+    height: 290px;
+    margin: 20px 10%;
+    background: whitesmoke;
+    color: black;    
+    padding: 5px 30px;
+    border-radius: 0%;
+    border-style: groove;
+}

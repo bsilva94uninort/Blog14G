@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+    padding: 0%;
+    background: url(../img/Buscar_fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+
+.cajabuscar{
+    width: 70%;
+    height: 200px;
+    margin: 20px 10%;
+    background: whitesmoke;
+    color: black;    
+    padding: 5px 30px;
+    border-radius: 0%;
+    border-style: groove;
+}
+
+.cajabuscar h1{
+    margin: 0;
+    padding: 10px 0 5px;
+    font-size: 16px;
+}
+
+.cajabuscar input[id="buscar"]{
+    width: 70%;
+    margin-bottom: 10px;
+}
