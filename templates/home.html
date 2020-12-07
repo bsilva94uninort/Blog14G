@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Home.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+    <script src="{{ url_for('static', filename='js\home.js') }}"></script>
+</head>
+<body>
+    <div class="cajahome">
+        <h1>Publica lo que tienes en mente!</h1>
+        <h2>Crea Blogs únicos. Fácil y gratis.</h2>
+    <form method="post" action="{{ url_for('signup14G')}}" >
+        <input type="button" value="Login" onclick="location.href='{{ url_for("login14G")}}'">
+            <input type="submit" value="Regístrate">
+            <a href="{{ url_for('recuperar')}}"><h6>¿Olvidaste tu contraseña?</h6></a>
+            <h4>¿Buscas un Blog en particular?</h4>
+        </form>
+        
+        <form method="post" action="{{ url_for('buscar')}}"><input type="submit" value="Buscar"></form>
+
+
+    </div>
+</body>
+</html>
